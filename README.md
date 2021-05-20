@@ -1,25 +1,26 @@
-Unscramble App
-===================================
+# Words App
 
-Single player game app that displays scrambled words. To play the game, player has to make a
-word using all the letters in the displayed scrambled word.
-This code demonstrates the Android Architecture component- ViewModel and LiveData.
-This code sample also demonstrates how to implement Data Binding with LiveData.
-
-Used in the [Android Basics with Kotlin](https://developer.android.com/courses/android-basics-kotlin/course) course.
+This folder contains the source code for the Words app codelab.
 
 
-Pre-requisites
---------------
+# Introduction
+Words app allows you to select a letter and use Intents to navigate to an Activity that
+presents a number of words starting with that letter. Each word can be looked up via a web search.
 
-You need to know:
-- How to use Fragments
-- How to design a layout in ConstraintLayout
-- How to write control flow statements (if / else, when statements)
-- How to update the UI of the app based on user input
-- How to add a click listener to a Button
+Words app contains a scrollable list of 26 letters A to Z in a RecyclerView. The orientation
+of the RecyclerView can be changed between a vertical list or a grid of items.
 
-Getting Started
----------------
+The app demonstrates the use of Intents in two ways:
+* to navigate inside an app by specifying an explicit destination, and,
+* allowing Android to service the Intent using the apps and resources present on the device.
 
-1. Download and run the app.
+# Pre-requisites
+* Experience with Kotlin syntax.
+* Able to create an Activity.
+* Able to create a RecyclerView and supply it with data.
+
+# Getting Started
+1. Install Android Studio, if you don't already have it.
+2. Download the sample.
+3. Import the sample into Android Studio.
+4. Build and run the sample.
